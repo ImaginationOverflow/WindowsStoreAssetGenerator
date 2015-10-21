@@ -3,12 +3,14 @@ Two simple photoshop scripts to allow you to given a tile generate all the App a
 
 The scripts are configured with the overall image size, the size of the icon, name and background color. 
 
+## Parameters
 To set the name, on the psd create a *layer* named **AppTitle** and place it on your desired location (inside the psd). The script automatically will add the name on the configured assets, as an example, it won't add the name on the app tiles.
 
 For the regular backgrounds (one color only) we use the same approach. Create a layer named **Background** and the scripts will handle when it should appear or not.
 
 For more info check the detailed blog post. 
 
+## Output
 The **WinAppAssets** script generates the following images:
 
  - Logo
@@ -34,3 +36,13 @@ The **WinStoreAssets** script generates:
  - WideIcon
 
 Feel free to contribute.
+
+## How to use
+
+ 1. Download the Scripts
+ 2. Place all of them under *%Photoshop_Install_Dir\Presets\Scripts*
+ 3. Restart photoshop
+ 4. File->Scripts WinXXXAssets.jsx
+ 5. Select the desired destination folder.
+ 6. Select the psd that you wish the scripts to use
+ 7. Wait
