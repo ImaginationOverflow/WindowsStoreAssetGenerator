@@ -8,7 +8,7 @@ To set the name, on the psd create a *layer* named **AppTitle** and place it on 
 
 For the regular backgrounds (one color only) we use the same approach. Create a layer named **Background** and the scripts will handle when it should appear or not.
 
-For more info check the detailed blog post. 
+For more info check the detailed [blog post](http://blog.imaginationoverflow.com/post/131755013254/automatically-generate-windows-app-store-default). 
 
 ## Output
 The **WinAppAssets** script generates the following images:
